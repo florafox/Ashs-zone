@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ash's Zone</title>
+    <style>
+        body {
+            background-color: black;
+            color: lime;
+            font-family: 'Comic Sans MS', 'Pixel Emulator', cursive;
+            text-align: center;
+            background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+            background-repeat: repeat;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-size: 48px;
+            color: cyan;
+            text-shadow: 2px 2px magenta;
+            margin-top: 20px;
+        }
+        p {
+            font-size: 20px;
+            margin: 20px;
+        }
+        .sparkle {
+            width: 50px;
+            height: auto;
+            vertical-align: middle;
+        }
+        .glow-button {
+            background-color: purple;
+            color: white;
+            padding: 10px 20px;
+            font-size: 20px;
+            border: 2px solid lime;
+            border-radius: 10px;
+            text-decoration: none;
+            box-shadow: 0 0 10px lime, 0 0 20px magenta;
+            transition: transform 0.2s;
+            display: inline-block;
+            margin-top: 30px;
+        }
+        .glow-button:hover {
+            transform: scale(1.1);
+        }
+        marquee {
+            font-size: 22px;
+            color: yellow;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 14px;
+            color: silver;
+        }
+    </style>
+</head>
+
+
+
+
+
+
+
+
+<body>
+
+    <h1>✨ Welcome to Ash's Zone ✨</h1>
+
+    <marquee scrollamount="10">You're surfing the web... with Ash! 🌐💖</marquee>
+
+    <p>
+        Have fun exploring my Homepage!<br>
+        Here you can also find official links to all my Social-Networks!
+    </p>
+
+    <a href="#" class="glow-button">YouTube.com</a>
+    <br>
+    <a href="#" class="glow-button">Twitter.com</a>
+    <br>
+    <a href="#" class="glow-button">Placeholder</a>
+    <br>
+    <br>
+    <br>
+    <p>
+        This website was made by Flora Queenston.<br>
+        You can also check out his homepage!<br>
+    <a href="https://florafox.github.io/floras-homepage/" class="glow-button">Check Out!</a>
+    </p>
+    
+
+
+
+
+
+
+
+
+    <footer>
+        © 2021-2025 Ash's Zone | <a href="https://florafox.github.io/floras-homepage/" style="color: cyan;">made by Flora Queenston</a>
+    </footer>
+
+</body>
+</html>
